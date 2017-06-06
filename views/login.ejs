@@ -4,14 +4,19 @@
 <div class='row card-form'>
     <h1>Login</h1>
     <form action='/login' method='POST'>
-        <div class='form-group'>
-            <input class='form-control' type='text' name='username' placeholder='username'>
+        <div class='form-group input-group'>
+            <span class="input-group-addon"><i class='fa fa-user'></i></span>
+            <input class='form-control' type='text' name='username' placeholder='Username'>
         </div>
-        <div class='form-group'>
-            <input class='form-control' type='password' name='password' placeholder='password'>
+        <div class='form-group input-group'>
+            <span class="input-group-addon"><i class='fa fa-lock'></i></span>
+            <input class='form-control' type='password' name='password' placeholder='Password'>
         </div>
         <div class='form-group'>
             <button class='btn btn-primary'>Login</button>
+        </div>
+        <div class='form-text text-muted'>
+            <p>Not registered? <a href='/register'>Create an account</a></p>
         </div>
     </form>
 </div>
