@@ -1,0 +1,1 @@
+This is a complete application to review and comment campgrounds created by users. It was created following the tutorial in order to improve knowledge about Node.js and Express. It will be improved and new features will be added in due course. Enjoy!
