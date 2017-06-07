@@ -77,6 +77,21 @@ body {
     margin: auto;
 }
 
+.new-campground {
+    margin: 25px auto;
+    max-width: 325px;
+    padding: 0 25px;
+}
+
+.new-comment {
+    margin: 25px auto;
+    max-width: 325px;
+    padding: 0 25px;
+}
+
+textarea {
+    max-width: 100%;
+}
 /*flex grid*/
 .flex-wrap {
     display: flex;
